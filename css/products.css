@@ -1,0 +1,24 @@
+.products {
+    margin-top: 100px;
+}
+
+
+
+.products__items {
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.product__item {
+    width: 300px;
+}
+
+.product__item--first {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1/3;
+}
