@@ -1,7 +1,10 @@
 
 #header {
+    min-height: 700px;
     display: flex;
     justify-content: space-between;
+    background: rgb(97,172,242);
+    background: linear-gradient(156deg, rgba(97,172,242,1) 0%, rgba(65,235,146,1) 100%);
 }
 
 #header-img {
