@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --title-color: #31ab6c;
+}
+
 .container {
     max-width: 900px;
     margin: auto;
 }
+
 
 .page-wrapper {
     position: relative;
@@ -16,4 +21,10 @@
 img {
     display: block;
     width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--title-color);
 }
