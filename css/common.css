@@ -5,7 +5,8 @@
 }
 
 :root {
-    --title-color: #31ab6c;
+    --title-color: #5eb1e9;
+    --subtitle-color: #31ab6c;
 }
 
 .container {
@@ -23,8 +24,15 @@ img {
     width: 100%;
 }
 
+h1 {
+    width: 180px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: var(--title-color);
+}
+
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: var(--title-color);
+    color: var(--subtitle-color);
 }
