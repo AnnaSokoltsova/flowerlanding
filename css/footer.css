@@ -1,0 +1,11 @@
+#footer {
+    height: 60px;
+    margin-top: 40px;
+    padding-top: 19px;
+    background: linear-gradient(156deg, rgba(97,172,242,1) 0%, rgba(65,235,146,1) 100%);
+}
+
+#footer p {
+    text-align: end;
+    color: #fff;
+}

@@ -6,6 +6,7 @@
     height: 80px;
     padding-top: 20px;
     background: linear-gradient(156deg, rgba(97,172,242,1) 0%, rgba(65,235,146,1) 100%);
+    z-index: 2;
 }
 
 #header .container {
