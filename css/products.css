@@ -3,6 +3,11 @@
 
 }
 
+.products__title {
+    background: url(../img/leaf.png) bottom right no-repeat;
+    font-weight: 700;
+}
+
 @media (min-width: 320px) {
     .products__items {
         min-height: 300px;

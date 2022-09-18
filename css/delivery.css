@@ -40,6 +40,11 @@
     width: 20vw;
 }
 
+.delivery__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
 .delivery__descr {
     display: flex;
     flex-direction: column;
