@@ -1,5 +1,6 @@
 .products {
-    margin-top: 100px;
+    margin: 100px 24px 0px 24px;
+
 }
 
 @media (min-width: 320px) {
@@ -7,7 +8,7 @@
         min-height: 300px;
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-gap: 20px;
     }
 
